@@ -31,6 +31,9 @@
         <meta name="cover" content="image_cover"/>
         <meta name="generator" content="epub-gen" />
         <meta property="ibooks:specified-fonts">true</meta>
+        <% for (kw of keywords) { %>
+            <dc:subject><%= kw %></dc:subject>
+        <% }%>
 
     </metadata>
 

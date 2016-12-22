@@ -15,6 +15,9 @@
         <dc:language><%= lang || "en" %></dc:language>
         <meta name="cover" content="image_cover" />
         <meta name="generator" content="epub-gen" />
+        <% for (kw of keywords) { %>
+            <dc:subject><%= kw %></dc:subject>
+        <% }%>
 
     </metadata>
 

@@ -27,6 +27,7 @@ declare namespace Epub
         customHtmlTocTemplatePath?: string;
         content?: Chapter[];
         keywords?: string[];
+        source?: string;
     }
 }
 

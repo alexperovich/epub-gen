@@ -24,6 +24,7 @@ export interface Options {
     content?: Chapter[];
     keywords?: string[];
     source?: string;
+    trustContent?: boolean;
 }
 export interface IHost {
     downloadFile(url: string, path: string): Promise<void>;

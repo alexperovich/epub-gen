@@ -36,10 +36,10 @@ export default class EPub {
     private uuid;
     promise: Promise<void>;
     constructor(options: Options, output?: string, host?: IHost);
-    private render();
-    private generateTempFile();
-    private makeCover();
-    private downloadAllImages();
-    private downloadImage(image);
-    private genEpub();
+    private render;
+    private generateTempFile;
+    private makeCover;
+    private downloadAllImages;
+    private downloadImage;
+    private genEpub;
 }
